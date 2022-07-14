@@ -1,0 +1,179 @@
+.navbar{
+    background-color: #073964;
+    border-bottom:  black solid 1px;
+}
+
+.icon{
+    background-color: azure;
+}
+
+.ust{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: rgb(241, 241, 241);
+}
+
+.btn{
+    background-color: #073964;
+    border: #062e51;
+}
+
+.resim{
+    max-width: 17rem;
+    border-radius: 50%;
+    border: 5px solid #062e51;
+}
+
+.btn2{
+    background-color: #336ea2;
+    border: solid 1px #336ea2;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+    border: solid 1px ;
+}
+
+.bg{
+    background-color: #062e51;
+}
+
+.baslik{
+    color: wheat;
+}
+
+
+.gonder{
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.sinir{
+        max-width: 50rem;
+    }
+
+    .naviga{
+        max-width: 70rem;
+    }
+
+    .buyuk1{
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    
+    .buyuk1:hover{
+        color: white;
+     }
+
+
+    .buyuk2{
+        font-size: 1.25rem;
+    }
+
+    .buyuk2:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .buyukimg{
+        width: 240px;
+        margin-right: 1rem;
+        border-radius: 10px;
+    }
+
+    @media only screen and (max-width: 992px) {
+
+        .mobilea{
+            width: 100%;
+        }
+
+        .buyukimg{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mobilea:hover{
+            background-color: white;
+            color: black;
+        }
+
+        
+
+      }
+
+      @media only screen and (max-width: 480px) {
+
+        .ust{
+            height: 40rem;
+        }
+
+      }
+
+      .sablon{
+        padding: 1rem;
+        border-radius: 1rem;
+        border: solid 1px white;
+        background-color: #073964;
+      }
+
+      .sablon:hover{
+        background-color: white;
+        color: red;
+      }
+
+      .sablon:hover .baslik{
+          color: red;
+      }
+
+      .icerik{
+          color: white;
+      }
+
+      .sablon:hover .icerik{
+          color: black;
+      }
+
+      .hr{
+          border-bottom: solid 1px white;
+      }
+
+      .sablon:hover .hr{
+        border-bottom: solid 1px  black;
+      }
+
+      .kurslar{
+          border-radius: 1rem;
+          background-color: rgb(230, 230, 230);
+
+      }
+
+      .kurslar:hover{
+          background-color: rgb(202, 202, 202);
+      }
+
+      .soluk{
+          color: rgb(121, 121, 121);
+      }
+
+      .soluk2{
+        color: rgb(121, 121, 121);
+    }
+    
+    .kurslar:hover .soluk{
+          color: black;
+      }
+
+      .kurslar:hover .soluk2{
+        color: darkgoldenrod;
+    }
+
+
+
+
+
+    
